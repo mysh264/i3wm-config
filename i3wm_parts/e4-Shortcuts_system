@@ -1,0 +1,35 @@
+#########################################
+#           System Shortcuts            #
+#########################################
+
+# exit-menu
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to update i3)
+bindsym $mod+Shift+r restart
+
+# Lock the system
+# lock with a picture:
+#bindsym $mod+l exec --no-startup-id i3lock -i  ~/.config/i3/i3-lock-screen.png -p default|win -t
+# lock by blurring the screen:
+bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/blur-lock
+# lock in case after sleep
+exec --no-startup-id xss-lock -l ~/.config/i3/scripts/blur-lock
+
+# keybinding in fancy rofi (automated):
+bindsym F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
+# alternative
+# keybinding list in editor:
+# bindsym $mod+F1 exec --no-startup-id xed ~/.config/i3/keybindings
+
+# Power Profiles menu switcher (rofi)
+bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
+
+# Backlight control
+# xfce4-power will handle it.
+
+#########################################
+

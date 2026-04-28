@@ -1,0 +1,20 @@
+#########################################
+#            Others Shortcuts           #
+#########################################
+
+# Multimedia Keys
+# volumicon will handle it.
+
+# toggle between audio devices for output
+bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/audio-device-switch
+
+# Screenshot
+# complete screen
+bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+# the currently focused window
+bindsym $mod+Print exec --no-startup-id scrot -u ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+# select a window or rectangle with the mouse
+bindsym $mod+Shift+Print exec --no-startup-id scrot -s ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+
+#########################################
+

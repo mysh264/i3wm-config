@@ -1,0 +1,32 @@
+#########################################
+#  Color settings for bar and windows   #
+#########################################
+
+# Using custom color
+## https://i3wm.org/docs/userguide.html#_changing_colors
+## http://www.colorpicker.com/
+
+# Panel colors
+
+# Whole color settings
+set $bg-color 	         #2f343f
+set $inactive-bg-color   #2f343f
+set $text-color          #419DCC
+set $inactive-text-color #676E7D
+set $text-color-only-win #94D158
+set $urgent-bg-color     #E53935
+set $urgent-text-color   #CC7041
+set $separator           #757575
+
+#***********************************************************#
+
+# window colors
+# class                 border  backgr. text    indicator child_border
+
+client.focused          #ffffff #30708C #ffffff #30368C   #30368C
+client.focused_inactive #ffffff #8C3030 #ffffff #8C3030   #8C3030
+client.unfocused        #ffffff #707070 #ffffff #707070   #707070
+client.urgent           #ffffff #904800 #ffffff #904800   #904800
+
+#########################################
+

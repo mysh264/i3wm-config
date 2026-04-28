@@ -1,0 +1,18 @@
+#########################################
+#        Applications Shortcuts         #
+#########################################
+
+# Applications
+# Start a terminal
+$sym $mod+Return $exec $term1
+$sym XF86Favorites exec $drop
+
+# Web Browser
+$code $mod+$j $exec $browser1
+$code $mod+Shift+$j $exec $browser2
+
+# File Manager
+$code $mod+$n $exec $file1
+
+#########################################
+

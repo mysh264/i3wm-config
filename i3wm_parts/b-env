@@ -1,0 +1,152 @@
+#########################################
+#             Environments              #
+#########################################
+
+# Generals
+# Mod4 is super key and Mod1 is alt key
+    set $mod Mod4
+	set $alt Mod1
+
+# Exec
+     set $exalways exec_always --no-startup-id
+     set $exec exec --no-startup-id
+
+# Bind
+	set $sym bindsym
+	set $code bindcode
+
+	set $sre bindsym --release
+	set $cre bindcode --release
+
+# Home
+	set $HOME ~
+
+#########################################
+# Applicatons
+# Internet Browser
+    set $browser1 firefox  
+    set $browser2 chromium
+
+# File Manager
+    set $file1 pcmanfm
+    set $file2 ranger
+
+
+# Image Viewer
+    set $img viewnior
+
+# Terminal 
+    set $term1 xfce4-terminal
+    set $drop xfce4-terminal --drop-down
+
+# Mail
+    set $mail thunderbird
+
+#########################################
+# Wallpaper
+# Feh Options
+    set $feh feh --bg-scale
+
+# Multi Wallpapers
+    set $wall variety
+
+# Background Pic
+    set $bg $($HOME/.config/i3/Shell/2-Wallpaper/check_wallpaper.sh)
+
+#########################################
+# Border
+set $pix 5
+
+#########################################
+# Keyboard LANGs
+# Language
+    set $lang setxkbmap -layout 'us,ara' -variant altgr-intl,qwerty -option 'grp:win_space_toggle'
+
+#########################################
+# Touchpad
+    set $mouse1 "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"      
+    set $mouse2 "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Natural Scrolling Enabled' 1"        
+    set $mouse3 "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Disable While Typing Enabled' 0"
+    set $mouse4 "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Accel Speed' 0.4"
+
+#########################################
+# Display
+# Zome to 120%
+    #set $rander "xrandr --output eDP-1 --scale 0.833x0.833"
+
+#########################################
+# Red Shif
+    set $red redshift -vr
+    set $red2 redshift -vrl 25.263900:55.308100
+
+#########################################
+# Character
+# Use xev Command
+## http://askubuntu.com/questions/726956/how-to-know-xf86-code-for-multimedia-keys-for-i3-windows-manager
+
+set $a 38
+
+set $b 56
+
+set $c 54
+
+set $d 40
+
+set $e 26
+
+set $f 41
+
+set $g 42
+
+set $h 43
+
+set $i 31
+
+set $j 44
+
+set $k 45
+
+set $l 46
+
+set $m 58
+
+set $n 57
+
+set $o 32
+
+set $p 33
+
+set $q 24
+
+set $r 27
+
+set $s 39
+
+set $t 28
+
+set $u 30
+
+set $v 55
+
+set $w 25
+
+set $x 53
+
+set $y 29
+
+set $z 52
+
+set $bracketleft 34
+
+set $bracketright 35
+
+set $; 47
+
+set $grave 49
+
+set $comma 59
+
+set $period 60
+
+#########################################
+

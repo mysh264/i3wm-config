@@ -1,0 +1,33 @@
+#########################################
+#              Tray Startup             #
+#########################################
+
+## system tray
+
+# if you do not use dex: exec --no-startup-id dex --autostart --environment i3
+# you need to have tray apps started manually one by one:
+
+# start blueberry app for managing bluetooth devices from tray:
+#exec --no-startup-id blueberry-tray
+
+# networkmanager-applet
+#exec --no-startup-id nm-applet
+
+# clipman-applet
+exec --no-startup-id xfce4-clipman
+
+# switch between the current and the previously focused one
+#bindsym $mod+z workspace back_and_forth
+#bindsym $mod+Shift+z move container to workspace back_and_forth
+
+# firewalld applet
+$exec firewall-applet
+
+# xfce power manager
+$exec xfce4-power-manager
+
+# vloume applet
+$exec sleep 20 ; volumeicon # Needs pipewire to be enabled.
+
+#########################################
+
