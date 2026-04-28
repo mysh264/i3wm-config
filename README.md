@@ -12,7 +12,7 @@ cp -v ~/.config/i3/config ~/.config/i3/config.bak
 git clone https://github.com/mysh264/i3wm-config.git
 ```
 ```
-cd i3wm-config
+cd i3wm-config/i3wm_parts
 ```
 ```
 cat * > ~/.config/i3/config
